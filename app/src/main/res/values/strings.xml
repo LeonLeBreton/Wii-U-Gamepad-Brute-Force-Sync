@@ -2,7 +2,7 @@
     <string name="app_name">Wii U Gamepad Brute Force Sync</string>
     <string name="next">Suivant</string>
     <string name="reset">Recommencer</string>
-    <string name="restart_sync">Recommencer la synchronisation</string>
+    <string name="restart_sync">Recommencer la Sync</string>
     <string name="start">Commencer</string>
     <string name="help">Aide</string>
 </resources>
