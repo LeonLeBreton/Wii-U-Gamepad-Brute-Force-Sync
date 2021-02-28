@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> suitList = new ArrayList<>();
     private CountDownTimer timer;
     private int position=0;
-    private Uri helpPage = Uri.parse("https://github.com/RodrigoDavy/Wii-U-Gamepad-Brute-Force-Sync/blob/master/README.md");
+    private Uri helpPage = Uri.parse("https://github.com/LeonLeBreton/Wii-U-Gamepad-Brute-Force-Sync/blob/master/README.md");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
