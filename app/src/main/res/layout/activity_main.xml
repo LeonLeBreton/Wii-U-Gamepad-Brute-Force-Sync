@@ -41,16 +41,24 @@
 
     <Button
         android:id="@+id/reset_timer_button"
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/timer"
-        android:layout_centerHorizontal="true"
 
+        android:layout_alignStart="@+id/timer"
+
+        android:layout_alignLeft="@+id/timer"
+
+        android:layout_alignEnd="@+id/timer"
+        android:layout_alignRight="@+id/timer"
+        android:layout_marginStart="-31dp"
+        android:layout_marginLeft="-31dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginRight="-30dp"
         android:background="@drawable/rounded_button_small"
-
-        android:text="@string/start"
-
-        android:onClick="resetTimer"/>
+        android:onClick="resetTimer"
+        android:text="@string/start" />
 
     <Button
         android:layout_width="wrap_content"
